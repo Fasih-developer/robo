@@ -186,7 +186,11 @@ gsap.to('.ad button', {
         opacity:0,
 })
 
-
+window.addEventListener('load', function(){
+    gsap.from('body',{
+        opacity : 0,
+    })
+})
 
 navbar();
 page1();
